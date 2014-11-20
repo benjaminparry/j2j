@@ -13,8 +13,8 @@ codeurl: 'https://github.com/AidanThreadgold/j2j'
 
 # Default categories (in order) to appear in the navigation
 sections: [
-    ['function', 'Functions'],
     ['tut', 'Tutorial'],
+    ['function', 'Functions'],
     ['ref', 'Reference'],
     ['dev', 'Developers'],
     ['post', 'Posts']

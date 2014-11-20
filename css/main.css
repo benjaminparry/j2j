@@ -6,8 +6,9 @@ body {
 pre, code {
     border: none;
     border-radius: 0;
-    background-color: #f9f9f9;
+    background-color: #333;
     font-size: 0.85em;
+    text-shadow: none;
 }
 
 pre {
@@ -15,7 +16,7 @@ pre {
 }
 
 code {
-    color: inherit;
+    color: #E5E5E5;
 }
 
 #header {

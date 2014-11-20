@@ -1,0 +1,311 @@
+---
+layout: default
+title: "Todo"
+---
+
+## To Document: Functions
+- add
+- addBack
+- after
+- ajaxComplete
+- ajaxError
+- ajaxSend
+- ajaxStart
+- ajaxStop
+- ajaxSuccess
+- andSelf
+- animate
+- append
+- appendTo
+- attr
+- before
+- bind
+- blur
+- change
+- clearQueue
+- click
+- clone
+- closest
+- contents
+- context
+- css
+- data
+- dblclick
+- delay
+- delegate
+- dequeue
+- detach
+- die
+- each
+- empty
+- end
+- eq
+- error
+- fadeIn
+- fadeOut
+- fadeTo
+- fadeToggle
+- filter
+- find
+- finish
+- first
+- focus
+- focusin
+- focusout
+- get
+- has
+- hasClass
+- height
+- hide
+- hover
+- html
+- index
+- innerHeight
+- innerWidth
+- insertAfter
+- insertBefore
+- is
+- jQuery
+- ajax
+- ajaxPrefilter
+- ajaxSetup
+- ajaxTransport
+- boxModel
+- browser
+- Callbacks
+- contains
+- cssHooks
+- data
+- Deferred
+- dequeue
+- each
+- error
+- extend
+- fn.extend
+- fx.interval
+- fx.off
+- get
+- getJSON
+- getScript
+- globalEval
+- grep
+- hasData
+- holdReady
+- inArray
+- isArray
+- isEmptyObject
+- isFunction
+- isNumeric
+- isPlainObject
+- isWindow
+- isXMLDoc
+- makeArray
+- map
+- merge
+- noConflict
+- noop
+- now
+- param
+- parseHTML
+- parseJSON
+- parseXML
+- post
+- proxy
+- queue
+- removeData
+- sub
+- support
+- trim
+- type
+- unique
+- when
+- keydown
+- keypress
+- keyup
+- last
+- length
+- live
+- load
+- map
+- mousedown
+- mouseenter
+- mouseleave
+- mousemove
+- mouseout
+- mouseover
+- mouseup
+- next
+- nextAll
+- nextUntil
+- not
+- off
+- offset
+- offsetParent
+- on
+- one
+- outerHeight
+- outerWidth
+- parent
+- parents
+- parentsUntil
+- position
+- prepend
+- prependTo
+- prev
+- prevAll
+- prevUntil
+- promise
+- prop
+- pushStack
+- queue
+- ready
+- remove
+- removeAttr
+- removeData
+- removeProp
+- replaceAll
+- replaceWith
+- resize
+- scroll
+- scrollLeft
+- scrollTop
+- select
+- selector
+- serialize
+- serializeArray
+- show
+- siblings
+- size
+- slice
+- slideDown
+- slideToggle
+- slideUp
+- stop
+- submit
+- text
+- toArray
+- toggle
+- toggleClass
+- trigger
+- triggerHandler
+- unbind
+- undelegate
+- unload
+- unwrap
+- val
+- width
+- wrap
+- wrapAll
+- wrapInner
+
+#### Not Documented
+
+- All Selector (“*”)
+- Attribute Contains Prefix Selector [name|="value"]
+- Attribute Contains Selector [name*="value"]
+- Attribute Contains Word Selector [name~="value"]
+- Attribute Ends With Selector [name$="value"]
+- Attribute Equals Selector [name="value"]
+- Attribute Not Equal Selector [name!="value"]
+- Attribute Starts With Selector [name^="value"]
+- :checkbox Selector
+- :checked Selector
+- Child Selector (“parent > child”)
+- Class Selector (“.class”)
+- :contains() Selector
+- Descendant Selector (“ancestor descendant”)
+- :disabled Selector
+- Element Selector (“element”)
+- :empty Selector
+- :enabled Selector
+- :eq() Selector
+- :even Selector
+- event.currentTarget
+- event.data
+- event.delegateTarget
+- event.isDefaultPrevented()
+- event.isImmediatePropagationStopped()
+- event.isPropagationStopped()
+- event.metaKey
+- event.namespace
+- event.pageX
+- event.pageY
+- event.preventDefault()
+- event.relatedTarget
+- event.result
+- event.stopImmediatePropagation()
+- event.stopPropagation()
+- event.target
+- event.timeStamp
+- event.type
+- event.which
+- :file Selector
+- :first-child Selector
+- :first-of-type Selector
+- :first Selector
+- :focus Selector
+- :gt() Selector
+- Has Attribute Selector [name]
+- :animated Selector
+- :button Selector
+- :has() Selector
+- :header Selector
+- :hidden Selector
+- :image Selector
+- :input Selector
+- :lang() Selector
+- :last-child Selector
+- :last-of-type Selector
+- :last Selector
+- :lt() Selector
+- :not() Selector
+- :nth-child() Selector
+- :nth-last-child() Selector
+- :nth-last-of-type() Selector
+- :nth-of-type() Selector
+- :odd Selector
+- :only-child Selector
+- :only-of-type Selector
+- :parent Selector
+- :password Selector
+- :radio Selector
+- :reset Selector
+- :root Selector
+- :selected Selector
+- :submit Selector
+- :target Selector
+- :text Selector
+- :visible Selector
+- callbacks.add()
+- callbacks.disable()
+- callbacks.disabled()
+- callbacks.empty()
+- callbacks.fire()
+- callbacks.fired()
+- callbacks.fireWith()
+- callbacks.has()
+- callbacks.lock()
+- callbacks.locked()
+- callbacks.remove()
+- deferred.always()
+- deferred.done()
+- deferred.fail()
+- deferred.isRejected()
+- deferred.isResolved()
+- deferred.notify()
+- deferred.notifyWith()
+- deferred.pipe()
+- deferred.progress()
+- deferred.promise()
+- deferred.reject()
+- deferred.rejectWith()
+- deferred.resolve()
+- deferred.resolveWith()
+- deferred.state()
+- deferred.then()
+- ID Selector (“#id”)
+- .jquery
+- Multiple Attribute Selector [name="value"][name2="value2"]
+- Multiple Selector (“selector1, selector2, selectorN”)
+- Next Adjacent Selector (“prev + next”)
+- Next Siblings Selector (“prev ~ siblings”)
