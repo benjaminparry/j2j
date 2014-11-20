@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/j2j/_posts/2014-11-20-addclass.md

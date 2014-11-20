@@ -1,6 +1,6 @@
 # Site title and subtitle. This is used in _includes/header.html
 title: 'jQuery to Javascript'
-subtitle: 'Painless documentation for your projects'
+subtitle: ''
 
 # Enable/show navigation. There are there options:
 #   0 - always hide
@@ -13,7 +13,7 @@ codeurl: 'https://github.com/AidanThreadgold/j2j'
 
 # Default categories (in order) to appear in the navigation
 sections: [
-    ['doc', 'Documentation'],
+    ['function', 'Functions'],
     ['tut', 'Tutorial'],
     ['ref', 'Reference'],
     ['dev', 'Developers'],
@@ -28,7 +28,7 @@ baseurl: '/j2j'
 permalink: none
 
 # Syntax highlighting
-pygments: true
+highlighter: true
 
 # Since these are pages, it doesn't really matter
 future: true

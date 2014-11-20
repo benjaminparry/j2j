@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="page-header">
+    <h2>jQuery.{{ page.title }}</h2>
+</div>
+
+{{ content }}
+
+<div class="see-also">
+	<h4>See Also</h4>
+	<ul>
+		<li><a href="http://api.jquery.com/{{ page.title }}" target="_blank">jQuery Documentation</a></li>
+		{% if page.mozlink %}
+			<li><a href="{{ page.mozlink }}" target="_blank">Mozilla Documentation on {{ page.mozLabel }}</a></li>
+		{% endif %}
+		{% if page.canIUse %}
+			<li><a href="http://caniuse.com/#search={{ page.canIUse }}" target="_blank">Browser Support</a></li>
+		{% endif %}
+		{% if page.pollyfill %}
+			<li><a href="{{ page.pollyfill }}" target="_blank">
+				{% if page.pollyfillLabel %}
+					{{ page.pollyfillLabel }}
+				{% else %}
+					{{ page.title }}
+				{% endif %} Pollyfill</a></li>
+		{% endif %}
+	</ul>
+</div>
