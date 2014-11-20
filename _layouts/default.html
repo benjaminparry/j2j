@@ -46,6 +46,23 @@
         </div>
 
         <script src="{{ site.baseurl }}/js/prism.js"></script>
+        <script>
+            var els = document.querySelectorAll("#content h2");
+            var link;
+
+            for( var i=0; i<els.length; i++ ) {
+                if( !els[i].id ) {
+                    continue;
+                }
+
+                link = document.createElement("a");
+                link.href = "#" + els[i].id;
+                link.className = "ref-point";
+                link.innerText = "§";
+
+                els[i].appendChild(link);
+            }
+        </script>
 
     </body>
 </html>

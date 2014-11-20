@@ -65,3 +65,7 @@ code {
 .see-also {
     margin-top: 40px;
 }
+
+.ref-point {
+    float: right;
+}

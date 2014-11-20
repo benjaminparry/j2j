@@ -12,10 +12,10 @@ canIUse: classList
 
 #### jQuery
 {% highlight javascript %}
-$("#my-id").removeClass("className1 className2");
+$(element).removeClass("className1 className2");
 {% endhighlight %}
 
 #### Native JavaScript
 {% highlight javascript %}
-document.getElementById("my-id").classList.remove("className", "secondClassName");
+element.classList.remove("className", "secondClassName");
 {% endhighlight %}

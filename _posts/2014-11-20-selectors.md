@@ -9,19 +9,19 @@ date: 2014-11-20 19:49:11
 
 #### jQuery
 {% highlight javascript %}
-$("#my-id");
+var element = $("#my-id");
 {% endhighlight %}
 
 #### Native JavaScript
 {% highlight javascript %}
-document.getElementById("my-id");
+var element = document.getElementById("my-id");
 {% endhighlight %}
 
 ## Class Name
 
 #### jQuery
 {% highlight javascript %}
-$(".my-class");
+var element = $(".my-class");
 {% endhighlight %}
 
 #### Native JavaScript
@@ -38,7 +38,7 @@ var elements = document.querySelectorAll(".my-class");
 
 #### jQuery
 {% highlight javascript %}
-$("input[type=text]");
+var element = $("input[type=text]");
 {% endhighlight %}
 
 #### Native JavaScript
@@ -47,7 +47,7 @@ $("input[type=text]");
 var elements = document.querySelectorAll("input[type=text]"); 
 
 /* Get the first element matching the selector */
-document.querySelector("input[type=text]"); 
+var element = document.querySelector("input[type=text]"); 
 {% endhighlight %}
 
 ## Looping through the matched elements
