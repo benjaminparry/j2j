@@ -18,13 +18,13 @@ layout: default
 		{% if page.canIUse %}
 			<li><a href="http://caniuse.com/#search={{ page.canIUse }}" target="_blank">Browser Support</a></li>
 		{% endif %}
-		{% if page.pollyfill %}
-			<li><a href="{{ page.pollyfill }}" target="_blank">
-				{% if page.pollyfillLabel %}
-					{{ page.pollyfillLabel }}
+		{% if page.polyfill %}
+			<li><a href="{{ page.polyfill }}" target="_blank">
+				{% if page.polyfillLabel %}
+					{{ page.polyfillLabel }}
 				{% else %}
 					{{ page.title }}
-				{% endif %} Pollyfill</a></li>
+				{% endif %} Polyfill</a></li>
 		{% endif %}
 	</ul>
 </div>

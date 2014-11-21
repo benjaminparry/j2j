@@ -1,8 +1,8 @@
 ---
 layout: function
-title: "removeClass"
+title: "toggleClass"
 category: function
-date: 2014-11-20 19:40:12
+date: 2014-11-20 19:12:26
 mozlink: https://developer.mozilla.org/en-US/docs/Web/API/Element.classList
 mozLabel: Element.classList
 polyfill: https://github.com/remy/polyfills/blob/master/classList.js
@@ -12,10 +12,10 @@ canIUse: classList
 
 #### jQuery
 {% highlight javascript %}
-$(element).removeClass("className1 className2");
+$(element).toggleClass("className1");
 {% endhighlight %}
 
 #### Native JavaScript
 {% highlight javascript %}
-element.classList.remove("className", "secondClassName");
+element.classList.toggle("className");
 {% endhighlight %}
