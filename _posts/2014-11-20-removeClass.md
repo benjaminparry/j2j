@@ -20,5 +20,5 @@ $(element).removeClass("className1 className2");
 element.classList.remove("className", "secondClassName");
 {% endhighlight %}
 
-#### Native JavaScript IE 8
+#### Native JavaScript for IE 8
 You can use the above code along with the `classList` pollyfill.
