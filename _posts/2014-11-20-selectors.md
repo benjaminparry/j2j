@@ -24,13 +24,14 @@ var element = document.getElementById("my-id");
 var element = $(".my-class");
 {% endhighlight %}
 
-#### Native JavaScript
+#### Native JavaScript IE 9 +
 {% highlight javascript %}
-/* Returns an array of elements to loop through.
-   This is not supported in IE 8. */
+/* Returns an array of elements to loop through. */
 var elements = document.getElementsByClassName("my-class");
+{% endhighlight %}
 
-/* If you need to support IE 8, use: */
+#### Native JavaScript IE 8
+{% highlight javascript %}
 var elements = document.querySelectorAll(".my-class");
 {% endhighlight %}
 
