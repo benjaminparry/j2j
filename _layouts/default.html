@@ -74,7 +74,7 @@
             functions = functions.sort();
             for( var i=0; i<functions.length; i++ ) {
                 var el = document.createElement('li');
-                el.innerHTML = '<a href="{{ site.baseurl }}/function/' + functions[i].toLowerCase() + '.html">' + functions[i] + '</a>';
+                el.innerHTML = '<a href="{{ site.baseurl }}/function/' + functions[i] + '.html">' + functions[i] + '</a>';
 
                 document.getElementById("nav--function").appendChild(el);
             }
