@@ -47,7 +47,7 @@
 
         <script src="{{ site.baseurl }}/js/prism.js"></script>
         <script>
-           /* // h2 anchors
+            // h2 anchors
             var els = document.querySelectorAll("#content h2");
             var link;
 
@@ -67,7 +67,7 @@
             var functions = [];
             var els = document.querySelectorAll("#nav--function .nav-link--function");
             for( var i=0; i<els.length; i++ ) {
-                functions.push(els[i].innerText);
+                functions.push( els[i].querySelector("a").textContent );
                 els[i].parentNode.removeChild( els[i] );
             }
 
@@ -77,7 +77,7 @@
                 el.innerHTML = '<a href="{{ site.baseurl }}/function/' + functions[i] + '.html">' + functions[i] + '</a>';
 
                 document.getElementById("nav--function").appendChild(el);
-            }*/
+            }
         </script>
 
     </body>
