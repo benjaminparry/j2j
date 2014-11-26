@@ -15,10 +15,10 @@ canIUse: classList
 $(element).toggleClass("className1");
 {% endhighlight %}
 
-#### Native JavaScript for IE 9 +
+#### Native JavaScript for IE 10 +
 {% highlight javascript %}
 element.classList.toggle("className");
 {% endhighlight %}
 
-#### Native JavaScript for IE 8
+#### Native JavaScript for IE 8 and 9
 You can use the above code along with the `classList` pollyfill.
